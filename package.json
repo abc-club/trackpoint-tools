@@ -1,6 +1,6 @@
 {
   "name": "trackpoint-tools-min",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "无侵入前端埋点方案",
   "main": "lib/bundle.js",
   "scripts": {
@@ -19,7 +19,6 @@
   "homepage": "https://github.com/Qquanwei/trackpoint-tools",
   "dependencies": {
     "@ramda/curryn": "^0.26.1",
-    "@ramda/set": "^0.26.1",
     "is-function": "^1.0.1"
   },
   "devDependencies": {
