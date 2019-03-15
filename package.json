@@ -1,7 +1,7 @@
 {
-  "name": "trackpoint-tools",
-  "version": "0.0.10",
-  "description": "",
+  "name": "trackpoint-tools-min",
+  "version": "0.0.1",
+  "description": "无侵入前端埋点方案",
   "main": "lib/bundle.js",
   "scripts": {
     "test": "npx babel-node ./spec/run.js",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/Qquanwei/trackpoint-tools",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "@ramda/curryn": "^0.26.1",
+    "@ramda/set": "^0.26.1",
+    "is-function": "^1.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
