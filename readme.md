@@ -1,9 +1,13 @@
 [![Build Status](https://travis-ci.org/Qquanwei/trackpoint-tools.svg?branch=master)](https://travis-ci.org/Qquanwei/trackpoint-tools)
 [![npm](https://img.shields.io/npm/v/trackpoint-tools.svg)](https://www.npmjs.com/package/trackpoint-tools)
 
-# 此项目 fork 自https://github.com/Qquanwei/trackpoint-tools,主要做了以下精简和优化：1.去除不需要的方法 2.减小包体积（优化前约 200k，优化后 15k）
+## 声明
 
-# 只包含 before after 两个 api
+### 此项目 fork 自https://github.com/Qquanwei/trackpoint-tools,
+### 主要做了以下精简和优化：1.去除不需要的方法 2.减小包体积（优化前约 200k，优化后 15k）
+
+### 只包含 before after 两个 api
+
 
 # 不能再让埋点继续侵入我们的逻辑了，我们需要做点什么
 
